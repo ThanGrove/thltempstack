@@ -1,0 +1,46 @@
+version: "3.2"
+services:
+  thlphp:
+    image: thlphp
+    build:
+      context: thlphp
+      dockerfile: ./thlphp.dockerfile
+    depends_on:
+      - thlxml
+    ports:
+      - "81:80"
+    volumes:
+      - "/Users/thangrove/Documents/Sandbox/THL/THLDocker/THLTempStack/thlphp/src:/var/www/html"
+      - "xml:/var/www/thlxml"
+
+  thlxml:
+    image: thlxml
+    build:
+      context: thlxml
+      dockerfile: ./thlxml.dockerfile
+    ports:
+      - "8888:8080"
+    volumes:
+      - "xml:/usr/local/tomcat/webapps/helloservlet/xml"
+
+  thlsolr:
+    image: solr:latest
+    container_name: thlsolr
+    ports:
+      - "9999:8983"
+    volumes:
+      - solrdata:/var/solr
+    networks:
+      - thlsolr
+    depends_on:
+      - thlphp
+      - thlxml
+
+networks:
+  thlsolr:
+
+volumes:
+  src:
+  xml:
+  solrdata:
+

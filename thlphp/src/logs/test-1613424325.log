@@ -1,0 +1,12 @@
+
+Doing cmd: cd /var/www/thlxml; git pull origin main
+Updating c81e7b5..8fc67f3
+Fast-forward
+ ngb-tb-0303-bib copy.xml | 4084 ++++++++++++++++++++++++++++++++++++++++++++++
+ ngb-tb-0304-bib copy.xml |  297 ++++
+ 2 files changed, 4381 insertions(+)
+ create mode 100644 ngb-tb-0303-bib copy.xml
+ create mode 100644 ngb-tb-0304-bib copy.xml
+
+Done!
+---------------------------------

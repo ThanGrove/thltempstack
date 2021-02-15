@@ -1,0 +1,15 @@
+
+Doing cmd: cd /var/www/thlxml; git pull origin main
+Updating 8fc67f3..85a398f
+Fast-forward
+ ngb-tb-0300-bib.xml      |    8 +-
+ ngb-tb-0303-bib copy.xml | 4084 ----------------------------------------------
+ ngb-tb-0304-bib copy.xml |  297 ----
+ ngb-tb-0306-bib copy.xml |  996 -----------
+ 4 files changed, 1 insertion(+), 5384 deletions(-)
+ delete mode 100644 ngb-tb-0303-bib copy.xml
+ delete mode 100644 ngb-tb-0304-bib copy.xml
+ delete mode 100644 ngb-tb-0306-bib copy.xml
+
+Done!
+---------------------------------

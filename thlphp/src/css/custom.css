@@ -1,0 +1,92 @@
+/** Custom css for temp stack **/
+
+body {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+main {
+    position: relative;
+    top: 30px;
+    height: 80vh;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    color: #fdfdfd;
+}
+
+div.contents {
+    padding: 1.5rem 0.5rem;
+}
+
+div#banner {
+    padding-top: 65px;
+}
+
+#banner h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+#banner .lead {
+    font-size: 1.15rem;
+}
+
+#banner .sponser {
+    font-style: italic;
+}
+
+main .contents {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1.gradient {
+    background: -webkit-linear-gradient(left, #ff5349, yellow);
+    background: -o-linear-gradient(right, #ff5349, yellow);
+    background: -moz-linear-gradient(right, #ff5349, yellow);
+    background: linear-gradient(to right, #ff5349, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+.sponsor {
+    position: absolute;
+    bottom: 2rem;
+    right: 11rem;
+    color: red;
+}
+
+blockquote {
+    margin: 1rem 6rem 1rem 4rem;
+    font-style: italic;
+    color: #f8fbff;
+}
+
+
+/** from newme.php **/
+label:after {
+    content: ':';
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.address blockquote {
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+pre {
+    margin: 1rem 2rem 0 0;
+    padding: 1rem;
+    background-color: white;
+    border: 3px inset #dee02d;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}
