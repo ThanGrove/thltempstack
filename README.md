@@ -20,8 +20,8 @@ Whateverthe domain is given by ngrok.
 Problems I've encountered are that the /var/www/thlxml folder needs to have its 
 owner set to `www-data:www-data` which I have added to the PHP dockerfile. 
 
-Currently, I have the PHP an XML containers sharing the XML data so that PHP can respond 
+Currently, I have the PHP and XML containers sharing the XML data so that PHP can respond 
 to the hook and update, but XML can display it in simulation of the current 
 THL Site.
 
-TODO: need to get it to index in Solr.
+TODO: need to get it to index in Solr and/or hook it up to the real THL stack
