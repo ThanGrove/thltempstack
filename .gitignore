@@ -1,5 +1,5 @@
 .idea
 .DS_Store
 package.json
-thlphp/id_rsa
+thlphp/id_*
 xmisc
