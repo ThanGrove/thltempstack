@@ -1,0 +1,9 @@
+
+Doing cmd: cd /var/www/thlxml; ssh -T git@github.com; git pull origin main
+Updating 68f56ff..df910d7
+Fast-forward
+ ngb-tb-0300-bib.xml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Done!
+---------------------------------

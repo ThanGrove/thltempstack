@@ -9,9 +9,9 @@ main {
     top: 30px;
     height: 80vh;
     font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.65);
     border-radius: 25px;
-    color: #fdfdfd;
+    color: #3a3a3a;
 }
 
 div.contents {
@@ -38,19 +38,25 @@ div#banner {
 main .contents {
     margin-top: 50px;
 }
-
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #3a3a3a;
+}
 h1 {
     font-size: 2rem;
 }
 
-h1.gradient {
-    background: -webkit-linear-gradient(left, #ff5349, yellow);
-    background: -o-linear-gradient(right, #ff5349, yellow);
-    background: -moz-linear-gradient(right, #ff5349, yellow);
-    background: linear-gradient(to right, #ff5349, yellow);
+h1.gradient, h2.gradient {
+    background: -webkit-linear-gradient(left, green, violet);
+    background: -o-linear-gradient(right, green, violet);
+    background: -moz-linear-gradient(right, green, violet);
+    background: linear-gradient(to right, green, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
+}
+
+h2 {
+    font-size: 1.75rem;
 }
 
 .sponsor {
@@ -63,7 +69,6 @@ h1.gradient {
 blockquote {
     margin: 1rem 6rem 1rem 4rem;
     font-style: italic;
-    color: #f8fbff;
 }
 
 

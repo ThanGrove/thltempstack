@@ -1,0 +1,12 @@
+
+Doing cmd: cd /var/www/thlxml; ssh -T git@github.com; git pull origin main
+Updating df910d7..478e4a6
+Fast-forward
+ ngb-copied.xml      | 5237 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ ngb-tb-0300-bib.xml |    9 +-
+ ngb-tb-0304-bib.xml |  118 +-
+ 3 files changed, 5326 insertions(+), 38 deletions(-)
+ create mode 100644 ngb-copied.xml
+
+Done!
+---------------------------------

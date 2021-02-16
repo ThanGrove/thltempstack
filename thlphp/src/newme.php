@@ -25,7 +25,7 @@
 
         ?>
         <?php if ($person): ?>
-            <h2>Hello <?php echo $name; ?>, It’s a New You!</h2>
+            <h2 class="gradient">Hello <?php echo $name; ?>, It’s a New You!</h2>
             <ul>
                 <?php foreach($data as $label => $val): ?>
                     <li class="<?php echo $label; ?>">

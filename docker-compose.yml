@@ -12,7 +12,7 @@ services:
       - "81:80"
     volumes:
       - "/Users/thangrove/Documents/Sandbox/THL/THLDocker/THLTempStack/thlphp/src:/var/www/html"
-      - "phpxml:/var/www/thlxml"
+      # - "phpxml:/var/www/thlxml"
 
   thlxml:
     image: thlxml
@@ -43,7 +43,7 @@ networks:
 
 volumes:
   src:
-  phpxml:
+  # phpxml:
   # xml:
   solrdata:
 

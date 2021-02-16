@@ -1,0 +1,5 @@
+
+Doing cmd: cd /var/www/thlxml; ssh -T git@github.com; git pull origin main
+
+Done!
+---------------------------------
