@@ -12,7 +12,7 @@ services:
       - "81:80"
     volumes:
       - "/Users/thangrove/Documents/Sandbox/THL/THLDocker/THLTempStack/thlphp/src:/var/www/html"
-      - "xml:/var/www/thlxml"
+      - "phpxml:/var/www/thlxml"
 
   thlxml:
     image: thlxml
@@ -22,8 +22,8 @@ services:
       dockerfile: ./thlxml.dockerfile
     ports:
       - "8888:8080"
-    volumes:
-      - "xml:/usr/local/tomcat/webapps/helloservlet/xml"
+    # volumes:
+    #  - "xml:/usr/local/tomcat/webapps/helloservlet/xml"
 
   thlsolr:
     image: solr:latest
@@ -43,6 +43,7 @@ networks:
 
 volumes:
   src:
-  xml:
+  phpxml:
+  # xml:
   solrdata:
 
