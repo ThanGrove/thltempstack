@@ -15,6 +15,9 @@ RUN apt-get update && apt-get install -y \
 
 # Copy site files  # Using Volume Mount to develop code
 # COPY src/ /var/www/html/
+# Make ssh dir
+RUN mkdir /root/.ssh/
+ADD id_rsa /root/.ssh/id_rsa
 
 # Copy XML files
 RUN git clone https://github.com/ThanGrove/thlxmltest.git /var/www/thlxml
