@@ -2,6 +2,7 @@ version: "3.2"
 services:
   thlphp:
     image: thlphp
+    container_name: thlphptest
     build:
       context: thlphp
       dockerfile: ./thlphp.dockerfile
@@ -15,6 +16,7 @@ services:
 
   thlxml:
     image: thlxml
+    container_name: thlxmltest
     build:
       context: thlxml
       dockerfile: ./thlxml.dockerfile
@@ -25,7 +27,7 @@ services:
 
   thlsolr:
     image: solr:latest
-    container_name: thlsolr
+    container_name: thlsolrtest
     ports:
       - "9999:8983"
     volumes:
